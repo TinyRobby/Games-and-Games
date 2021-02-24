@@ -12,6 +12,7 @@ int main()
      {  
             cout << "Game hub. options:\nhelp:help\nstart:start a game\nexit:leave" << endl;
             cin >> hubstrng;
+            bool start;
             if(hubstrng == "exit")
             {
                 break;
@@ -19,7 +20,13 @@ int main()
             if(hubstrng == "start")
             {
                 string hubstrngstart;
-                cout << "Welcome to"
+                cout << "Welcome to the game start hub\nstart by typing list" << endl;
+                cin >> hubstrngstart;
+                if(hubstrngstart == "list")
+                {
+                    cout << "1 = buckz\n2 = CF sim 1.0\nenter the number of the game you want" << endl;
+                     
+                }
             }
               
      }
