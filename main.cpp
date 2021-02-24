@@ -24,7 +24,7 @@ int main()
                 cin >> hubstrngstart;
                 if(hubstrngstart == "list")
                 {
-                    cout << "1 = buckz\n2 = CF sim 1.0\nenter the number of the game you want" << endl;
+                    cout << "1 = buckz\n2 = CF sim 1.0\nRT-FOS fake operating system\nenter the number of the game you want" << endl;
                      
                 }
             }
